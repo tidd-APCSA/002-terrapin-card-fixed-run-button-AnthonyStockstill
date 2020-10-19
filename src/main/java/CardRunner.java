@@ -1,24 +1,24 @@
 public class CardRunner {
     public static void main(String args[]){
 
-      TerrapinCard cardBilly = new TerrapinCard(50);
-      TerrapinCard cardBrian = new TerrapinCard(50);
+      TerrapinCard billy = new TerrapinCard(50);
+      TerrapinCard brian = new TerrapinCard(50);
 
-      cardBilly.payGourmet();
-      cardBrian.payEconomical();
-      System.out.println("Billy; " + cardBilly);
-      System.out.println("Brian; " + cardBrian);
+      billy.payGourmet();
+      brian.payEconomical();
+      System.out.println("Billy: " + billy);
+      System.out.println("Brian: " + brian);
 
-      cardBilly.loadMoney(28);
-      cardBrian.payGourmet();
-      System.out.println("Billy; " + cardBilly);
-      System.out.println("Brian; " + cardBrian);
+      billy.loadMoney(28);
+      brian.payGourmet();
+      System.out.println("Billy: " + billy);
+      System.out.println("Brian: " + brian);
 
-      cardBilly.payGourmet();
-      cardBilly.payGourmet();
-      cardBrian.loadMoney(50);
-      System.out.println("Billy; " + cardBilly);
-      System.out.println("Brian; " + cardBrian);
+      billy.payGourmet();
+      billy.payGourmet();
+      brian.loadMoney(50);
+      System.out.println("Billy: " + billy);
+      System.out.println("Brian: " + brian);
 
     }
 }
