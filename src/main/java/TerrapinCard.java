@@ -19,6 +19,13 @@ public class TerrapinCard {
     }
     
   }
+  public void loadMoney(double amount){
+    if(amount <= 0){
+      balance += 0;
+    }else{
+      balance += amount;
+    }
+  }
   public String toString(){
       return "The card has " + balance + " dollars";
   }
